@@ -1,0 +1,301 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TCA9534APWR
+#/293972/1142816/2.50/16/3/Integrated Circuit
+DEF TCA9534APWR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TCA9534APWR" 950 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tca9534a" 950 0 50 H I L CNN
+F4 "Remote 8-Bit I2C and Low-Power I/O Expander With Interrupt Output and Configuration Registers" 950 -100 50 H I L CNN "Description"
+F5 "1.2" 950 -200 50 H I L CNN "Height"
+F6 "595-TCA9534APWR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCA9534APWR?qs=asCBFxFfL1RkU8XbvZBOXg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TCA9534APWR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A0 1 0 0 200 R 50 50 0 0 P
+X A1 2 0 -100 200 R 50 50 0 0 P
+X A2 3 0 -200 200 R 50 50 0 0 P
+X P0 4 0 -300 200 R 50 50 0 0 P
+X P1 5 0 -400 200 R 50 50 0 0 P
+X P2 6 0 -500 200 R 50 50 0 0 P
+X P3 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1100 0 200 L 50 50 0 0 P
+X SDA 15 1100 -100 200 L 50 50 0 0 P
+X SCL 14 1100 -200 200 L 50 50 0 0 P
+X ~INT 13 1100 -300 200 L 50 50 0 0 P
+X P7 12 1100 -400 200 L 50 50 0 0 P
+X P6 11 1100 -500 200 L 50 50 0 0 P
+X P5 10 1100 -600 200 L 50 50 0 0 P
+X P4 9 1100 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TPS54240DGQR
+#/364136/1142816/2.50/11/3/Integrated Circuit
+DEF TPS54240DGQR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "TPS54240DGQR" 1250 200 50 H V L CNN
+F2 "SOP50P490X110-11N" 1250 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tps54240" 1250 0 50 H I L CNN
+F4 "3.5V to 42V STEP DOWN SWIFT? DC/DC CONVERTER WITH ECO-MODE" 1250 -100 50 H I L CNN "Description"
+F5 "1.1" 1250 -200 50 H I L CNN "Height"
+F6 "595-TPS54240DGQR" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54240DGQR?qs=v3hU%2FV0XOaji4FwlKkvz%252Bw%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPS54240DGQR" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X BOOT 1 0 0 200 R 50 50 0 0 P
+X VIN 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X SS/TR 4 0 -300 200 R 50 50 0 0 P
+X RT/CLK 5 0 -400 200 R 50 50 0 0 P
+X EP 11 700 -900 200 U 50 50 0 0 P
+X PH 10 1400 0 200 L 50 50 0 0 P
+X GND 9 1400 -100 200 L 50 50 0 0 P
+X COMP 8 1400 -200 200 L 50 50 0 0 P
+X VSENSE 7 1400 -300 200 L 50 50 0 0 P
+X PWRGD 6 1400 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCP1826ST-3302E_DB
+#/258141/1142816/2.50/4/3/Integrated Circuit
+DEF MCP1826ST-3302E_DB IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MCP1826ST-3302E_DB" 1050 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1050 100 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf" 1050 0 50 H I L CNN
+F4 "MICROCHIP - MCP1826ST-3302E/DB - LDO, AEC-Q100, FIXED, 3.3V, 1A, SOT-223" 1050 -100 50 H I L CNN "Description"
+F5 "1.8" 1050 -200 50 H I L CNN "Height"
+F6 "579-MCP1826ST3302EDB" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1826ST-3302E-DB?qs=gsqZ4L1luKonwDKtf8IO%252Bw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MCP1826ST-3302E/DB" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X GND_1 2 0 -100 200 R 50 50 0 0 P
+X VOUT 3 0 -200 200 R 50 50 0 0 P
+X GND_2 4 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ISO1044BDR
+#/12739423/1142816/2.50/8/3/Integrated Circuit
+DEF ISO1044BDR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ISO1044BDR" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/iso1044?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes" 950 0 50 H I L CNN
+F4 "ISO1044 Isolated CAN FD Transceiver" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "595-ISO1044BDR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1044BDR?qs=DuoOggApuK9UGD9QQWYeTA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ISO1044BDR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VCC1 1 0 0 200 R 50 50 0 0 P
+X TXD 2 0 -100 200 R 50 50 0 0 P
+X RXD 3 0 -200 200 R 50 50 0 0 P
+X GND1 4 0 -300 200 R 50 50 0 0 P
+X VCC2 8 1100 0 200 L 50 50 0 0 P
+X GND2 7 1100 -100 200 L 50 50 0 0 P
+X CANH 6 1100 -200 200 L 50 50 0 0 P
+X CANL 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SP712-02HTG
+#/11494298/1142816/2.50/3/3/TVS Diode (Bi-directional)
+DEF SP712-02HTG D 0 30 Y Y 1 F N
+F0 "D" 1050 300 50 H V L CNN
+F1 "SP712-02HTG" 1050 200 50 H V L CNN
+F2 "SOT95P237X115-3N" 1050 100 50 H I L CNN
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp712_datasheet.pdf.pdf" 1050 0 50 H I L CNN
+F4 "ESD Suppressors / TVS Diodes SP712 12V 20A 30kV SOT23-3L" 1050 -100 50 H I L CNN "Description"
+F5 "1.15" 1050 -200 50 H I L CNN "Height"
+F6 "576-SP712-02HTG" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP712-02HTG?qs=GBLSl2AkiruqudcLsbr7vw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SP712-02HTG" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X K_1 1 0 0 200 R 50 50 0 0 P
+X K_2 2 0 -100 200 R 50 50 0 0 P
+X COMMON 3 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SN6501QDBVRQ1
+#/292431/1142816/2.50/5/4/Integrated Circuit
+DEF SN6501QDBVRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SN6501QDBVRQ1" 950 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/sn6501-q1" 950 0 50 H I L CNN
+F4 "Automotive Low-Noise 350 mA, 410 kHz Transformer Driver " 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "595-SN6501QDBVRQ1" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN6501QDBVRQ1?qs=uSgeFhR2uNhePSB4wgv7mg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SN6501QDBVRQ1" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X D1 1 0 0 200 R 50 50 0 0 P
+X VCC 2 0 -100 200 R 50 50 0 0 P
+X D2 3 0 -200 200 R 50 50 0 0 P
+X GND_1 4 1100 0 200 L 50 50 0 0 P
+X GND_2 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 760390014
+#/281898/1142816/2.50/6/4/Transformer
+DEF 760390014 T 0 30 Y Y 1 F N
+F0 "T" 650 300 50 H V L CNN
+F1 "760390014" 650 200 50 H V L CNN
+F2 "760390015" 650 100 50 H I L CNN
+F3 "http://katalog.we-online.de/ctm/datasheet/760390014.pdf" 650 0 50 H I L CNN
+F4 "Audio Transformers / Signal Transformers MID-SN6501 TI Driver Toroid .475mH 5VDC" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "710-760390014" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/760390014?qs=wElim4iM2pgaRMAKec%2FMSQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "760390014" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 -200 200 L 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+X 6 6 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MBR0520L-TP
+#/687002/1142816/2.50/2/2/Schottky Diode
+DEF MBR0520L-TP D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "MBR0520L-TP" 500 250 50 H V L CNN
+F2 "SOD3716X135N" 500 150 50 H I L CNN
+F3 "https://mccsemi.com/pdf/Products/MBR0520L-MBR0540L(SOD-123).pdf" 500 50 50 H I L CNN
+F4 "Small Signal Schottky Diodes" 500 -50 50 H I L CNN "Description"
+F5 "1.35" 500 -150 50 H I L CNN "Height"
+F6 "833-MBR0520L-TP" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MBR0520L-TP?qs=J4%252BvTxtW289z%2FynXXxISdw%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "MCC" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "MBR0520L-TP" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B360B-13-F
+#/364942/1142816/2.50/2/3/Schottky Diode
+DEF B360B-13-F D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "B360B-13-F" 500 250 50 H V L CNN
+F2 "DIOM5336X250N" 500 150 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds30924.pdf" 500 50 50 H I L CNN
+F4 "Diodes Inc B360B-13-F, SMT Schottky Diode, 60V 3A, 2-Pin DO-214AA" 500 -50 50 H I L CNN "Description"
+F5 "2.5" 500 -150 50 H I L CNN "Height"
+F6 "621-B360B-F" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B360B-13-F?qs=cDbtHnkTFqtfpDEkSTc71A%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Incorporated" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "B360B-13-F" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MSS1038-103NLC
+#/296260/1142816/2.50/2/3/Integrated Circuit
+DEF MSS1038-103NLC IC 0 30 Y Y 1 F N
+F0 "IC" 650 300 50 H V L CNN
+F1 "MSS1038-103NLC" 650 200 50 H V L CNN
+F2 "INDPM102100X400N" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/MSS1038-103NLC.pdf" 650 0 50 H I L CNN
+F4 "Fixed Inductors 10uH Shld 30% 4.05A 35mOhms" 650 -100 50 H I L CNN "Description"
+F5 "4" 650 -200 50 H I L CNN "Height"
+F6 "994-MSS1038-103NLC" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Coilcraft/MSS1038-103NLC?qs=zCSbvcPd3pZ95C4Zl6ESHQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "COILCRAFT" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MSS1038-103NLC" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TC33X-2-502G
+#/827435/1142816/2.50/3/4/Resistor
+DEF TC33X-2-502G R 0 30 Y Y 1 F N
+F0 "R" 950 300 50 H V L CNN
+F1 "TC33X-2-502G" 950 200 50 H V L CNN
+F2 "TC33X2503E" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/TC33X-2-502G.pdf" 950 0 50 H I L CNN
+F4 "Trimmer Resistors - SMD 3MM 5KOHMS 25% 0.1WATT OPEN FRM" 950 -100 50 H I L CNN "Description"
+F5 "1.2" 950 -200 50 H I L CNN "Height"
+F6 "652-TC33X-2-502G" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/TC33X-2-502G?qs=UmpSLsh52mVfPYqLYJpjzQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TC33X-2-502G" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 1100 0 200 L 50 50 0 0 P
+X CW 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
